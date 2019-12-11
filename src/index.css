@@ -1,0 +1,156 @@
+body {
+  background: rgb(10,10,10);
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+
+
+.board {
+  display: block;
+  overflow-y: scroll;
+  background: radial-gradient(circle, rgb(37, 37, 37) 0%, rgb(10, 10, 10) 100%);
+  height: 86vh;
+  width: 98vw;
+  position: absolute;
+  top: 12vh;
+  left: 1vw;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+
+
+.card {
+  display: inline-block;
+  float: left;
+  color: black;
+  min-height: 82vh;
+  width: 26rem;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+  font-size: 5rem;
+  background: radial-gradient(circle, rgba(226,226,226,1) 0%, rgba(164,164,164,1) 100%);
+}
+
+.card input {
+  text-align: center;
+  font-size: 2rem;
+  border: 0px;
+  border-radius: 20px;
+  background:rgba(226,226,226,1);
+  width: 90%;
+  position: relative;
+  top: -1rem;
+}
+
+.task {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+  background: radial-gradient(circle, rgba(226,226,226,1) 0%, rgba(164,164,164,1) 100%);
+}
+
+.task input {
+  text-align: center;
+  font-size: 1.5rem;
+  border: 0px;
+  border-radius: 20px;
+  background:rgba(226,226,226,1);
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.addCardButton {
+  display: inline-block;
+  float: left;
+  color: rgb(41, 41, 41);
+  height: 82vh;
+  width: 26rem;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+  font-size: 5rem;
+  background: radial-gradient(circle, rgba(226,226,226,1) 0%, rgba(164,164,164,1) 100%);
+  transition: all .1s ease-in;
+  opacity: 70%;
+}
+
+.addCardButton:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.addTaskButton {
+  display: inline-block;
+  float: left;
+  color: rgb(41, 41, 41);
+  height: 4rem;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+  font-size: 1.75rem;
+  padding-top: 0.25rem;
+  background: radial-gradient(circle, rgba(226,226,226,1) 0%, rgba(164,164,164,1) 100%);
+  transition: all .1s ease-in;
+  opacity: 70%;
+}
+
+.addTaskButton:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.taskArrow{
+  width: 100%;
+  font-size: 2rem;
+  color: rgb(41, 41, 41); 
+  margin-top: -10%;
+  padding-top: 5%;
+  cursor: pointer;
+}
+
+.taskArrow i {
+  transition: all .1s ease-in;
+  opacity: 70%;
+}
+
+.taskArrow:hover i {
+  opacity: 100%;
+}
+
+.taskExpanded {
+  transition: all .1s ease-in;
+}
+
