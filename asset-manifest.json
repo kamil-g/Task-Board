@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Task-Board/static/css/main.c69e6812.chunk.css",
+    "main.js": "/Task-Board/static/js/main.a99f2761.chunk.js",
+    "main.js.map": "/Task-Board/static/js/main.a99f2761.chunk.js.map",
+    "runtime-main.js": "/Task-Board/static/js/runtime-main.835996ad.js",
+    "runtime-main.js.map": "/Task-Board/static/js/runtime-main.835996ad.js.map",
+    "static/js/2.dc07c8de.chunk.js": "/Task-Board/static/js/2.dc07c8de.chunk.js",
+    "static/js/2.dc07c8de.chunk.js.map": "/Task-Board/static/js/2.dc07c8de.chunk.js.map",
+    "index.html": "/Task-Board/index.html",
+    "precache-manifest.258330ca55802ab9a15b900e764fb947.js": "/Task-Board/precache-manifest.258330ca55802ab9a15b900e764fb947.js",
+    "service-worker.js": "/Task-Board/service-worker.js",
+    "static/css/main.c69e6812.chunk.css.map": "/Task-Board/static/css/main.c69e6812.chunk.css.map",
+    "static/js/2.dc07c8de.chunk.js.LICENSE": "/Task-Board/static/js/2.dc07c8de.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.835996ad.js",
+    "static/js/2.dc07c8de.chunk.js",
+    "static/css/main.c69e6812.chunk.css",
+    "static/js/main.a99f2761.chunk.js"
+  ]
+}
